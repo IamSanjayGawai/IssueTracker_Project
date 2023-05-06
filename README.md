@@ -69,7 +69,7 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
  ---
 ***
 ### Home Page
-![1_mainpage](https://user-images.githubusercontent.com/85845931/218548463-5729720c-913d-4ce2-b4ac-93ff1ddeeaa7.png)
+
 
 ### Creating a project
 ![2_createnewproject](https://user-images.githubusercontent.com/85845931/218548567-397f83e6-c7fa-446d-b653-d00e9181803d.png)

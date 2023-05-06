@@ -73,21 +73,21 @@
 
                     <!-- search by label -->
                     <form action="/issue/filterIssue" method="post">
-                        <div class="user-box" style="display: flex; flex-direction: column; width: 100%; height: 50%;">
+                        <!-- <div class="user-box" style="display: flex; flex-direction: column; width: 100%; height: 50%;">
                             <select name="label1" class="selectbox" style="width:80%;" >
                                 <% for(i of labelSet){%>
-                                    <option  value="<%= i%>"><%= i%></option>  
+                                    <option value="<%= i%>"><%= i%></option>  
                                 <%}%>
                             </select>
-                        </div>
-                        <!-- <div class="user-box" style="display: flex; flex-direction: column; width: 100%; height: 50%;">
+                        </div> -->
+                        <div class="user-box" style="display: flex; flex-direction: column; width: 100%; height: 50%;">
                             <select name="label2" class="selectbox" style="width:80%;">
                                 <% for(i of labelSet){%>
                                     <option value="<%= i%>"><%= i%></option>   
                                 <%}%>
                             </select>
                             <input type="hidden" name="projectId" value="<%= project._id%>">
-                        </div> -->
+                        </div>
                         <a href="">
                             <input class="btn" type="submit" value="search">
                         </a>
@@ -162,19 +162,19 @@
                 <th>Author</th>
                 <th>label</th>
             </tr>
-            <% for(i of filterdata){%>
+            <% for(i of filterdata) {%>
                 <tr>
                     <td>
-                        <%= i.title%>
+                        <%= i.title %>
                     </td>
                     <td>
-                        <%= i.description%>
+                        <%= i.description %>
                     </td>
                     <td>
-                        <%= i.author%>
+                        <%= i.author %>
                     </td>
                     <td>
-                        <%= i.labels%>
+                        <%= i.labels %>
                     </td>
                 </tr>
                 <%}%>

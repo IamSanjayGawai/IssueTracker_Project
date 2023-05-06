@@ -59,7 +59,7 @@
     #show-data section #filter-data {
       display: flex;
       width: 60%;
-      border: 2px solid  black;
+      border: 2px solid black;
       height: 100%; }
 
 .user-box {
@@ -120,3 +120,43 @@
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; }
 
 /***/
+#filter-data {
+  width: 100%;
+  height: 100%; }
+  #filter-data h1 {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    width: 100%;
+    margin-top: 0.5rem;
+    background-color: #0000ff;
+    text-align: center;
+    color: white; }
+  #filter-data table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px; }
+    #filter-data table tr {
+      width: 100%;
+      display: flex;
+      justify-content: space-around; }
+      #filter-data table tr th {
+        width: 25%;
+        font-size: 0.8rem;
+        background-color: black;
+        color: white;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        text-transform: capitalize;
+        padding: 5px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.3); }
+    #filter-data table tr {
+      margin-top: 0.8rem;
+      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; }
+      #filter-data table tr td {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        padding: 5px;
+        font-size: 0.7rem;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.3); }

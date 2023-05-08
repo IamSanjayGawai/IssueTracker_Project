@@ -1,17 +1,17 @@
 Create a nodejs + ejs application to track issues/bugs for a project.
 You can install nodejs and npm easily with apt install, just run the following commands.
 
-Install all Liabraries
+Install all Liabraries👇
 
-:  npm install
-
-
-For starting server:
-
-:  npm start
+👉  npm install
 
 
-After Successfully run:
+For starting server:👇
+
+👉  npm start
+
+
+After Successfully run:👇
 
 router working
 server is running in the port 8000
@@ -20,16 +20,16 @@ Successfully connected to a database
 
 
 
-on Chrome browser type:
+on Chrome browser type:👇
 
-http://localhost:8000/
-
-
+👉  http://localhost:8000/
 
 
 
 
-////////////////////  All Sceensshots ////////////////
+
+
+////////////////////  All Sceensshots ////////////////👇
 
 
 //Create Project

@@ -27,5 +27,5 @@ npm start
 
 
 //Report Issue
-!![Report_issue](https://user-images.githubusercontent.com/112196917/236878772-c206ffa3-6cde-4de7-a1f7-cef32a9ea7ff.PNG)
+![Report_issue](https://user-images.githubusercontent.com/112196917/236878772-c206ffa3-6cde-4de7-a1f7-cef32a9ea7ff.PNG)
 

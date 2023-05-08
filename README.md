@@ -3,9 +3,11 @@ You can install nodejs and npm easily with apt install, just run the following c
 
 npm install
 
-For starting server
 
+For starting server
 npm start
+
+
 
 
 
